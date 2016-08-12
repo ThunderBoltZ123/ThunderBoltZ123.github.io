@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Denk+One);
+
+
+body{
+background-color:#b80024;
+ color:blue;
+ cursor:url('http://www.rw-designer.com/cursor-view/31250.png'),auto;
+
+}
+
+
+h1{
+  font-size:60px;
+  font-family:"Arial";
+  text-align: center;
+}
+
+button {
+  font-size:30px;
+  font-family:"Arial";
+  border: 10px solid #008000;
+  margin-bottom: 20px;
+  display: block;
+  margin: auto;
+
+}
+
+button:hover {
+  background:Gold;
+}
+
+#pic1 {
+ display: inline;
+}
+
+#pic2 {
+  display: inline;
+}
+
+#pic3 {
+  display: inline;
+}
+
+#startpics {
+  text-align: center;
+}
+
+.normalzombie {
+  display: inline-block;
+  position: absolute;
+}
+
+#normalzombie1 {
+  position: absolute;
+}
+
+#normalzombie2 {
+  position: absolute;
+}
+
+.spearzombie {
+  display: inline-block;
+  position: absolute;
+}
+
+#spearzombie1 {
+  position:absolute;
+}
+
+#scorebox {
+  font-size:30px;
+  border: 10px solid #b536da;
+}
+
+#girl {
+  position:absolute;
+}
+
+#girl1 {
+  position:absolute
+}
+
+
+p{text-align: center;
+font-size:30px;
+font-family:Arial;
+}
+
+#gametitle
+{
+  font-family:Denk One;
+}
