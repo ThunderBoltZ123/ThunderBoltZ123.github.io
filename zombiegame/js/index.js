@@ -28,6 +28,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
   score = score + 100;
   document.getElementById("points").innerHTML = score;
+  checkScore();
   });
   
   //What happens when you shoot normal zombie 2
@@ -35,6 +36,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
    score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
    //What happens when you shoot normal zombie 3
@@ -42,6 +44,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
    //What happens when you shoot normal zombie 4
@@ -49,6 +52,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
    //What happens when you shoot spear zombie 1
@@ -56,6 +60,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
   //What happens when you shoot spear zombie 2
@@ -63,6 +68,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
   //What happens when you shoot normal zombie 4
@@ -70,6 +76,8 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
+    
   });
   
   //What happens when you shoot normal zombie 5
@@ -77,6 +85,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore()
   });
   
   //What happens when you shoot normal zombie 6
@@ -84,6 +93,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
  
  //What happens when you shoot spear zombie 3
@@ -91,6 +101,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 300;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   }); 
   
    //What happens when you shoot normal zombie 7
@@ -98,6 +109,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
    //What happens when you shoot normal zombie 8
@@ -105,6 +117,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
    //What happens when you shoot normal zombie 9
@@ -112,6 +125,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 100;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
   //What happens when you shoot spear zombie 4
@@ -119,6 +133,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
     score = score + 300;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
   //What happens when you shoot girl
@@ -126,6 +141,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
      score = score - 300;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
   
    //What happens when you shoot girl1
@@ -133,6 +149,7 @@ $('#playbutton').click(function() {
    $(this).toggle("explode");
      score = score - 300;
   document.getElementById("points").innerHTML = score;
+    checkScore();
   });
  
   //Move normalzombie1
@@ -303,4 +320,13 @@ $('#playbutton').click(function() {
   }
   
   movegirl1Right();
+  
+  
+//Function to check score, and if player reaches 1500 points, they win!
+  
+  function checkScore() {
+    if (score === 1800) {
+      alert("Great job You Win!!!");
+    }
+  }
 });
